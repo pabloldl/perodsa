@@ -10,6 +10,7 @@ const contentTypes = {
   '.js': 'text/javascript; charset=utf-8',
   '.svg': 'image/svg+xml',
   '.jpg': 'image/jpeg',
+  '.webp': 'image/webp',
   '.woff2': 'font/woff2'
 };
 

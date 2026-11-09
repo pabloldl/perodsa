@@ -3,4 +3,5 @@ Thumbs.db
 .vscode/
 qa/.browser-profile/
 qa/*.png
+assets/images/originals/
 

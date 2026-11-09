@@ -43,7 +43,7 @@ const endpointPromise=new Promise((resolve,reject)=>{const timer=setTimeout(()=>
 let socket,seq=0;const pending=new Map();let errors=[];
 function send(method,params={}){return new Promise((resolve,reject)=>{const id=++seq,timer=setTimeout(()=>{pending.delete(id);reject(Error('CDP timeout '+method));},20000);pending.set(id,{resolve:v=>{clearTimeout(timer);resolve(v);},reject:e=>{clearTimeout(timer);reject(e);}});socket.send(JSON.stringify({id,method,params}));});}
 async function evaluate(expression){const r=await send('Runtime.evaluate',{expression,returnByValue:true,awaitPromise:true});if(r.exceptionDetails)throw Error(JSON.stringify(r.exceptionDetails));return r.result.value;}
-async function key(value,code,number,modifiers=0){await send('Input.dispatchKeyEvent',{type:'keyDown',text:value==='Enter'?'\r':undefined,key:value,code,windowsVirtualKeyCode:number,modifiers});await send('Input.dispatchKeyEvent',{type:'keyUp',key:value,code,windowsVirtualKeyCode:number,modifiers});}
+async function key(value,code,number,modifiers=0){await send('Input.dispatchKeyEvent',{type:'keyDown',key:value,code,windowsVirtualKeyCode:number,modifiers});await send('Input.dispatchKeyEvent',{type:'keyUp',key:value,code,windowsVirtualKeyCode:number,modifiers});}
 const url=pathToFileURL(path.join(root,slug,'index.html')).href;
 async function load(){await send('Page.navigate',{url});await evaluate('new Promise(resolve=>{if(document.readyState==="complete")resolve();else addEventListener("load",resolve,{once:true});})');await evaluate('document.fonts.ready.then(()=>true)');}
 async function pause(ms){await evaluate('new Promise(r=>setTimeout(r,'+ms+'))');}
@@ -67,22 +67,16 @@ try{
   await evaluate('document.querySelector(".skip").focus()');
   await key('Tab','Tab',9);
   interactions.push({case:'keyboard-tab',ok:await evaluate('document.activeElement.classList.contains("brand")')});
-  for(const id of ['presentacion','identidad']){
+  for(const id of ['identidad','territorio']){
     await evaluate('document.querySelector("nav a[href=\\"#'+id+'\\"]").click()');await pause(150);
     interactions.push({case:'navigation-'+id,ok:await evaluate('location.hash==="#'+id+'"&&document.activeElement.id==="'+id+'"&&Math.abs(document.getElementById("'+id+'").getBoundingClientRect().top-24)<3')});
   }
   const anchors=await evaluate('[...document.links].filter(a=>a.getAttribute("href").startsWith("#")).map(a=>({href:a.hash,ok:!!document.getElementById(a.hash.slice(1))}))');
   const links=await evaluate('[...document.links].map(a=>({href:a.getAttribute("href"),external:a.protocol==="https:",target:a.target,rel:a.rel}))');
   const targets=await evaluate('[...document.querySelectorAll(".button,.phone,.back-top,.discover,nav a")].map(a=>({text:a.textContent.trim(),height:a.getBoundingClientRect().height}))');
-  await evaluate('document.querySelector("nav a[href=\\"#contacto\\"]").click()');await pause(1200);
-  interactions.push({case:'contact-navigation',ok:await evaluate('location.hash==="#contacto"&&document.getElementById("contacto").getBoundingClientRect().top>=0&&document.getElementById("contacto").getBoundingClientRect().top<innerHeight'),top:await evaluate('document.getElementById("contacto").getBoundingClientRect().top')});
+  await evaluate('document.querySelector("nav a[href=\\"#ubicacion\\"]").click()');await pause(1200);
+  interactions.push({case:'contact-navigation',ok:await evaluate('location.hash==="#ubicacion"&&document.getElementById("ubicacion").getBoundingClientRect().top>=0&&document.getElementById("ubicacion").getBoundingClientRect().top<innerHeight'),top:await evaluate('document.getElementById("ubicacion").getBoundingClientRect().top')});
   await send('Emulation.setEmulatedMedia',{features:[]});
-  await evaluate('document.querySelector("summary").focus()');
-  await key('Enter','Enter',13);
-  await pause(100);
-  interactions.push({case:'references-keyboard-open',ok:await evaluate('document.querySelector("details").open&&document.querySelector(".research-body").getBoundingClientRect().height>0')});
-  await key('Enter','Enter',13);
-  interactions.push({case:'references-keyboard-close',ok:await evaluate('!document.querySelector("details").open')});
   const row={viewport:width,...stats,interactions,anchors,links,targets,errors:[...errors]};report.push(row);
   console.log(width+': '+(stats.width===width&&stats.scrollWidth<=width&&stats.font&&!stats.revealHidden&&stats.images.every(i=>i.loaded)&&interactions.every(i=>i.ok)&&!errors.length?'PASS':'REVIEW')+' scrollWidth='+stats.scrollWidth);
  }
@@ -95,8 +89,6 @@ try{
  fs.writeFileSync(path.join(out,'all-browser-reports.json'),JSON.stringify({report,reducedMotion,noJs},null,2));
  console.log('Reduced motion: '+JSON.stringify(reducedMotion));console.log('JS-disabled readability: '+JSON.stringify(noJs));
 }finally{if(socket?.readyState===1)socket.close();browser.kill();}
-
-
 
 
 

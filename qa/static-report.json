@@ -60,6 +60,9 @@
   "emptyLinks": false,
   "contactLinks": [],
   "forms": 0,
+  "activityMentioned": true,
+  "locationReference": true,
+  "oldConceptPresent": false,
   "browser": [
     {
       "viewport": 375,

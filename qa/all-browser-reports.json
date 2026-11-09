@@ -4,14 +4,22 @@
       "viewport": 375,
       "width": 375,
       "scrollWidth": 375,
-      "height": 3529,
+      "height": 4425,
       "h1": 1,
       "robots": [
         "noindex, nofollow"
       ],
       "images": [
         {
-          "src": "assets/images/editorial-composition.svg",
+          "src": "assets/images/ganado-pradera-1536.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/sierra-grazalema-1536.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/retrato-bovino-1024.webp",
           "loaded": true
         }
       ],
@@ -24,25 +32,17 @@
           "ok": true
         },
         {
-          "case": "navigation-presentacion",
+          "case": "navigation-identidad",
           "ok": true
         },
         {
-          "case": "navigation-identidad",
+          "case": "navigation-territorio",
           "ok": true
         },
         {
           "case": "contact-navigation",
           "ok": true,
-          "top": 24.46875
-        },
-        {
-          "case": "references-keyboard-open",
-          "ok": true
-        },
-        {
-          "case": "references-keyboard-close",
-          "ok": true
+          "top": 23.953125
         }
       ],
       "anchors": [
@@ -55,7 +55,19 @@
           "ok": true
         },
         {
-          "href": "#presentacion",
+          "href": "#identidad",
+          "ok": true
+        },
+        {
+          "href": "#territorio",
+          "ok": true
+        },
+        {
+          "href": "#actividad",
+          "ok": true
+        },
+        {
+          "href": "#ubicacion",
           "ok": true
         },
         {
@@ -63,15 +75,7 @@
           "ok": true
         },
         {
-          "href": "#contacto",
-          "ok": true
-        },
-        {
-          "href": "#presentacion",
-          "ok": true
-        },
-        {
-          "href": "#contacto",
+          "href": "#actividad",
           "ok": true
         },
         {
@@ -97,7 +101,25 @@
           "rel": ""
         },
         {
-          "href": "#presentacion",
+          "href": "#identidad",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#territorio",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#actividad",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#ubicacion",
           "external": false,
           "target": "",
           "rel": ""
@@ -109,31 +131,19 @@
           "rel": ""
         },
         {
-          "href": "#contacto",
+          "href": "#actividad",
           "external": false,
           "target": "",
           "rel": ""
         },
         {
-          "href": "#presentacion",
-          "external": false,
-          "target": "",
-          "rel": ""
-        },
-        {
-          "href": "#contacto",
-          "external": false,
-          "target": "",
-          "rel": ""
-        },
-        {
-          "href": "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2010-88-11",
+          "href": "https://commons.wikimedia.org/wiki/File:VistaDesdeBoyar.jpg",
           "external": true,
           "target": "_blank",
           "rel": "noopener noreferrer"
         },
         {
-          "href": "https://www.grazalema.es/component/phocadownload/category/5-ano-2015?download=20%3Aacta-02-07-2015",
+          "href": "https://creativecommons.org/licenses/by-sa/4.0/",
           "external": true,
           "target": "_blank",
           "rel": "noopener noreferrer"
@@ -153,19 +163,23 @@
       ],
       "targets": [
         {
-          "text": "01 Presentación",
+          "text": "Identidad",
           "height": 44
         },
         {
-          "text": "02 Identidad",
+          "text": "Territorio",
           "height": 44
         },
         {
-          "text": "03 Información",
+          "text": "Actividad",
           "height": 44
         },
         {
-          "text": "Conocer la presentación",
+          "text": "Ubicación",
+          "height": 44
+        },
+        {
+          "text": "Descubrir Perod",
           "height": 44
         },
         {
@@ -179,14 +193,22 @@
       "viewport": 390,
       "width": 390,
       "scrollWidth": 390,
-      "height": 3557,
+      "height": 4464,
       "h1": 1,
       "robots": [
         "noindex, nofollow"
       ],
       "images": [
         {
-          "src": "assets/images/editorial-composition.svg",
+          "src": "assets/images/ganado-pradera-1536.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/sierra-grazalema-1536.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/retrato-bovino-1024.webp",
           "loaded": true
         }
       ],
@@ -199,25 +221,17 @@
           "ok": true
         },
         {
-          "case": "navigation-presentacion",
+          "case": "navigation-identidad",
           "ok": true
         },
         {
-          "case": "navigation-identidad",
+          "case": "navigation-territorio",
           "ok": true
         },
         {
           "case": "contact-navigation",
           "ok": true,
-          "top": 24.484375
-        },
-        {
-          "case": "references-keyboard-open",
-          "ok": true
-        },
-        {
-          "case": "references-keyboard-close",
-          "ok": true
+          "top": 23.515625
         }
       ],
       "anchors": [
@@ -230,7 +244,19 @@
           "ok": true
         },
         {
-          "href": "#presentacion",
+          "href": "#identidad",
+          "ok": true
+        },
+        {
+          "href": "#territorio",
+          "ok": true
+        },
+        {
+          "href": "#actividad",
+          "ok": true
+        },
+        {
+          "href": "#ubicacion",
           "ok": true
         },
         {
@@ -238,15 +264,7 @@
           "ok": true
         },
         {
-          "href": "#contacto",
-          "ok": true
-        },
-        {
-          "href": "#presentacion",
-          "ok": true
-        },
-        {
-          "href": "#contacto",
+          "href": "#actividad",
           "ok": true
         },
         {
@@ -272,7 +290,25 @@
           "rel": ""
         },
         {
-          "href": "#presentacion",
+          "href": "#identidad",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#territorio",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#actividad",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#ubicacion",
           "external": false,
           "target": "",
           "rel": ""
@@ -284,31 +320,19 @@
           "rel": ""
         },
         {
-          "href": "#contacto",
+          "href": "#actividad",
           "external": false,
           "target": "",
           "rel": ""
         },
         {
-          "href": "#presentacion",
-          "external": false,
-          "target": "",
-          "rel": ""
-        },
-        {
-          "href": "#contacto",
-          "external": false,
-          "target": "",
-          "rel": ""
-        },
-        {
-          "href": "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2010-88-11",
+          "href": "https://commons.wikimedia.org/wiki/File:VistaDesdeBoyar.jpg",
           "external": true,
           "target": "_blank",
           "rel": "noopener noreferrer"
         },
         {
-          "href": "https://www.grazalema.es/component/phocadownload/category/5-ano-2015?download=20%3Aacta-02-07-2015",
+          "href": "https://creativecommons.org/licenses/by-sa/4.0/",
           "external": true,
           "target": "_blank",
           "rel": "noopener noreferrer"
@@ -328,19 +352,23 @@
       ],
       "targets": [
         {
-          "text": "01 Presentación",
+          "text": "Identidad",
           "height": 44
         },
         {
-          "text": "02 Identidad",
+          "text": "Territorio",
           "height": 44
         },
         {
-          "text": "03 Información",
+          "text": "Actividad",
           "height": 44
         },
         {
-          "text": "Conocer la presentación",
+          "text": "Ubicación",
+          "height": 44
+        },
+        {
+          "text": "Descubrir Perod",
           "height": 44
         },
         {
@@ -354,14 +382,22 @@
       "viewport": 768,
       "width": 768,
       "scrollWidth": 753,
-      "height": 3209,
+      "height": 3808,
       "h1": 1,
       "robots": [
         "noindex, nofollow"
       ],
       "images": [
         {
-          "src": "assets/images/editorial-composition.svg",
+          "src": "assets/images/ganado-pradera-1536.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/sierra-grazalema-1536.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/retrato-bovino-1024.webp",
           "loaded": true
         }
       ],
@@ -374,25 +410,17 @@
           "ok": true
         },
         {
-          "case": "navigation-presentacion",
+          "case": "navigation-identidad",
           "ok": true
         },
         {
-          "case": "navigation-identidad",
+          "case": "navigation-territorio",
           "ok": true
         },
         {
           "case": "contact-navigation",
           "ok": true,
-          "top": 36.03125
-        },
-        {
-          "case": "references-keyboard-open",
-          "ok": true
-        },
-        {
-          "case": "references-keyboard-close",
-          "ok": true
+          "top": 183.875
         }
       ],
       "anchors": [
@@ -405,7 +433,19 @@
           "ok": true
         },
         {
-          "href": "#presentacion",
+          "href": "#identidad",
+          "ok": true
+        },
+        {
+          "href": "#territorio",
+          "ok": true
+        },
+        {
+          "href": "#actividad",
+          "ok": true
+        },
+        {
+          "href": "#ubicacion",
           "ok": true
         },
         {
@@ -413,15 +453,7 @@
           "ok": true
         },
         {
-          "href": "#contacto",
-          "ok": true
-        },
-        {
-          "href": "#presentacion",
-          "ok": true
-        },
-        {
-          "href": "#contacto",
+          "href": "#actividad",
           "ok": true
         },
         {
@@ -447,7 +479,25 @@
           "rel": ""
         },
         {
-          "href": "#presentacion",
+          "href": "#identidad",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#territorio",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#actividad",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#ubicacion",
           "external": false,
           "target": "",
           "rel": ""
@@ -459,31 +509,19 @@
           "rel": ""
         },
         {
-          "href": "#contacto",
+          "href": "#actividad",
           "external": false,
           "target": "",
           "rel": ""
         },
         {
-          "href": "#presentacion",
-          "external": false,
-          "target": "",
-          "rel": ""
-        },
-        {
-          "href": "#contacto",
-          "external": false,
-          "target": "",
-          "rel": ""
-        },
-        {
-          "href": "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2010-88-11",
+          "href": "https://commons.wikimedia.org/wiki/File:VistaDesdeBoyar.jpg",
           "external": true,
           "target": "_blank",
           "rel": "noopener noreferrer"
         },
         {
-          "href": "https://www.grazalema.es/component/phocadownload/category/5-ano-2015?download=20%3Aacta-02-07-2015",
+          "href": "https://creativecommons.org/licenses/by-sa/4.0/",
           "external": true,
           "target": "_blank",
           "rel": "noopener noreferrer"
@@ -503,19 +541,23 @@
       ],
       "targets": [
         {
-          "text": "01 Presentación",
+          "text": "Identidad",
           "height": 44
         },
         {
-          "text": "02 Identidad",
+          "text": "Territorio",
           "height": 44
         },
         {
-          "text": "03 Información",
+          "text": "Actividad",
           "height": 44
         },
         {
-          "text": "Conocer la presentación",
+          "text": "Ubicación",
+          "height": 44
+        },
+        {
+          "text": "Descubrir Perod",
           "height": 44
         },
         {
@@ -529,14 +571,22 @@
       "viewport": 1440,
       "width": 1440,
       "scrollWidth": 1425,
-      "height": 3800,
+      "height": 4706,
       "h1": 1,
       "robots": [
         "noindex, nofollow"
       ],
       "images": [
         {
-          "src": "assets/images/editorial-composition.svg",
+          "src": "assets/images/ganado-pradera-1536.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/sierra-grazalema-1536.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/retrato-bovino-1024.webp",
           "loaded": true
         }
       ],
@@ -549,25 +599,17 @@
           "ok": true
         },
         {
-          "case": "navigation-presentacion",
+          "case": "navigation-identidad",
           "ok": true
         },
         {
-          "case": "navigation-identidad",
+          "case": "navigation-territorio",
           "ok": true
         },
         {
           "case": "contact-navigation",
           "ok": true,
-          "top": 24.078125
-        },
-        {
-          "case": "references-keyboard-open",
-          "ok": true
-        },
-        {
-          "case": "references-keyboard-close",
-          "ok": true
+          "top": 35.765625
         }
       ],
       "anchors": [
@@ -580,7 +622,19 @@
           "ok": true
         },
         {
-          "href": "#presentacion",
+          "href": "#identidad",
+          "ok": true
+        },
+        {
+          "href": "#territorio",
+          "ok": true
+        },
+        {
+          "href": "#actividad",
+          "ok": true
+        },
+        {
+          "href": "#ubicacion",
           "ok": true
         },
         {
@@ -588,15 +642,7 @@
           "ok": true
         },
         {
-          "href": "#contacto",
-          "ok": true
-        },
-        {
-          "href": "#presentacion",
-          "ok": true
-        },
-        {
-          "href": "#contacto",
+          "href": "#actividad",
           "ok": true
         },
         {
@@ -622,7 +668,25 @@
           "rel": ""
         },
         {
-          "href": "#presentacion",
+          "href": "#identidad",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#territorio",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#actividad",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#ubicacion",
           "external": false,
           "target": "",
           "rel": ""
@@ -634,31 +698,19 @@
           "rel": ""
         },
         {
-          "href": "#contacto",
+          "href": "#actividad",
           "external": false,
           "target": "",
           "rel": ""
         },
         {
-          "href": "#presentacion",
-          "external": false,
-          "target": "",
-          "rel": ""
-        },
-        {
-          "href": "#contacto",
-          "external": false,
-          "target": "",
-          "rel": ""
-        },
-        {
-          "href": "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2010-88-11",
+          "href": "https://commons.wikimedia.org/wiki/File:VistaDesdeBoyar.jpg",
           "external": true,
           "target": "_blank",
           "rel": "noopener noreferrer"
         },
         {
-          "href": "https://www.grazalema.es/component/phocadownload/category/5-ano-2015?download=20%3Aacta-02-07-2015",
+          "href": "https://creativecommons.org/licenses/by-sa/4.0/",
           "external": true,
           "target": "_blank",
           "rel": "noopener noreferrer"
@@ -678,19 +730,23 @@
       ],
       "targets": [
         {
-          "text": "01 Presentación",
+          "text": "Identidad",
           "height": 44
         },
         {
-          "text": "02 Identidad",
+          "text": "Territorio",
           "height": 44
         },
         {
-          "text": "03 Información",
+          "text": "Actividad",
           "height": 44
         },
         {
-          "text": "Conocer la presentación",
+          "text": "Ubicación",
+          "height": 44
+        },
+        {
+          "text": "Descubrir Perod",
           "height": 44
         },
         {
@@ -704,14 +760,22 @@
       "viewport": 1920,
       "width": 1920,
       "scrollWidth": 1905,
-      "height": 4243,
+      "height": 5058,
       "h1": 1,
       "robots": [
         "noindex, nofollow"
       ],
       "images": [
         {
-          "src": "assets/images/editorial-composition.svg",
+          "src": "assets/images/ganado-pradera-1536.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/sierra-grazalema-1536.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/retrato-bovino-1024.webp",
           "loaded": true
         }
       ],
@@ -724,25 +788,17 @@
           "ok": true
         },
         {
-          "case": "navigation-presentacion",
+          "case": "navigation-identidad",
           "ok": true
         },
         {
-          "case": "navigation-identidad",
+          "case": "navigation-territorio",
           "ok": true
         },
         {
           "case": "contact-navigation",
           "ok": true,
-          "top": 24.296875
-        },
-        {
-          "case": "references-keyboard-open",
-          "ok": true
-        },
-        {
-          "case": "references-keyboard-close",
-          "ok": true
+          "top": 35.8125
         }
       ],
       "anchors": [
@@ -755,7 +811,19 @@
           "ok": true
         },
         {
-          "href": "#presentacion",
+          "href": "#identidad",
+          "ok": true
+        },
+        {
+          "href": "#territorio",
+          "ok": true
+        },
+        {
+          "href": "#actividad",
+          "ok": true
+        },
+        {
+          "href": "#ubicacion",
           "ok": true
         },
         {
@@ -763,15 +831,7 @@
           "ok": true
         },
         {
-          "href": "#contacto",
-          "ok": true
-        },
-        {
-          "href": "#presentacion",
-          "ok": true
-        },
-        {
-          "href": "#contacto",
+          "href": "#actividad",
           "ok": true
         },
         {
@@ -797,7 +857,25 @@
           "rel": ""
         },
         {
-          "href": "#presentacion",
+          "href": "#identidad",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#territorio",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#actividad",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#ubicacion",
           "external": false,
           "target": "",
           "rel": ""
@@ -809,31 +887,19 @@
           "rel": ""
         },
         {
-          "href": "#contacto",
+          "href": "#actividad",
           "external": false,
           "target": "",
           "rel": ""
         },
         {
-          "href": "#presentacion",
-          "external": false,
-          "target": "",
-          "rel": ""
-        },
-        {
-          "href": "#contacto",
-          "external": false,
-          "target": "",
-          "rel": ""
-        },
-        {
-          "href": "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2010-88-11",
+          "href": "https://commons.wikimedia.org/wiki/File:VistaDesdeBoyar.jpg",
           "external": true,
           "target": "_blank",
           "rel": "noopener noreferrer"
         },
         {
-          "href": "https://www.grazalema.es/component/phocadownload/category/5-ano-2015?download=20%3Aacta-02-07-2015",
+          "href": "https://creativecommons.org/licenses/by-sa/4.0/",
           "external": true,
           "target": "_blank",
           "rel": "noopener noreferrer"
@@ -853,19 +919,23 @@
       ],
       "targets": [
         {
-          "text": "01 Presentación",
+          "text": "Identidad",
           "height": 44
         },
         {
-          "text": "02 Identidad",
+          "text": "Territorio",
           "height": 44
         },
         {
-          "text": "03 Información",
+          "text": "Actividad",
           "height": 44
         },
         {
-          "text": "Conocer la presentación",
+          "text": "Ubicación",
+          "height": 44
+        },
+        {
+          "text": "Descubrir Perod",
           "height": 44
         },
         {
