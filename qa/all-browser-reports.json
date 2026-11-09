@@ -1,0 +1,889 @@
+{
+  "report": [
+    {
+      "viewport": 375,
+      "width": 375,
+      "scrollWidth": 375,
+      "height": 3529,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "images": [
+        {
+          "src": "assets/images/editorial-composition.svg",
+          "loaded": true
+        }
+      ],
+      "font": true,
+      "revealHidden": 0,
+      "overflow": [],
+      "interactions": [
+        {
+          "case": "keyboard-tab",
+          "ok": true
+        },
+        {
+          "case": "navigation-presentacion",
+          "ok": true
+        },
+        {
+          "case": "navigation-identidad",
+          "ok": true
+        },
+        {
+          "case": "contact-navigation",
+          "ok": true,
+          "top": 24.46875
+        },
+        {
+          "case": "references-keyboard-open",
+          "ok": true
+        },
+        {
+          "case": "references-keyboard-close",
+          "ok": true
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#contenido",
+          "ok": true
+        },
+        {
+          "href": "#contenido",
+          "ok": true
+        },
+        {
+          "href": "#presentacion",
+          "ok": true
+        },
+        {
+          "href": "#identidad",
+          "ok": true
+        },
+        {
+          "href": "#contacto",
+          "ok": true
+        },
+        {
+          "href": "#presentacion",
+          "ok": true
+        },
+        {
+          "href": "#contacto",
+          "ok": true
+        },
+        {
+          "href": "#contenido",
+          "ok": true
+        },
+        {
+          "href": "#contenido",
+          "ok": true
+        }
+      ],
+      "links": [
+        {
+          "href": "#contenido",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contenido",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#presentacion",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#identidad",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contacto",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#presentacion",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contacto",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2010-88-11",
+          "external": true,
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.grazalema.es/component/phocadownload/category/5-ano-2015?download=20%3Aacta-02-07-2015",
+          "external": true,
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "#contenido",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contenido",
+          "external": false,
+          "target": "",
+          "rel": ""
+        }
+      ],
+      "targets": [
+        {
+          "text": "01 Presentación",
+          "height": 44
+        },
+        {
+          "text": "02 Identidad",
+          "height": 44
+        },
+        {
+          "text": "03 Información",
+          "height": 44
+        },
+        {
+          "text": "Conocer la presentación",
+          "height": 44
+        },
+        {
+          "text": "Volver al inicio",
+          "height": 44
+        }
+      ],
+      "errors": []
+    },
+    {
+      "viewport": 390,
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 3557,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "images": [
+        {
+          "src": "assets/images/editorial-composition.svg",
+          "loaded": true
+        }
+      ],
+      "font": true,
+      "revealHidden": 0,
+      "overflow": [],
+      "interactions": [
+        {
+          "case": "keyboard-tab",
+          "ok": true
+        },
+        {
+          "case": "navigation-presentacion",
+          "ok": true
+        },
+        {
+          "case": "navigation-identidad",
+          "ok": true
+        },
+        {
+          "case": "contact-navigation",
+          "ok": true,
+          "top": 24.484375
+        },
+        {
+          "case": "references-keyboard-open",
+          "ok": true
+        },
+        {
+          "case": "references-keyboard-close",
+          "ok": true
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#contenido",
+          "ok": true
+        },
+        {
+          "href": "#contenido",
+          "ok": true
+        },
+        {
+          "href": "#presentacion",
+          "ok": true
+        },
+        {
+          "href": "#identidad",
+          "ok": true
+        },
+        {
+          "href": "#contacto",
+          "ok": true
+        },
+        {
+          "href": "#presentacion",
+          "ok": true
+        },
+        {
+          "href": "#contacto",
+          "ok": true
+        },
+        {
+          "href": "#contenido",
+          "ok": true
+        },
+        {
+          "href": "#contenido",
+          "ok": true
+        }
+      ],
+      "links": [
+        {
+          "href": "#contenido",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contenido",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#presentacion",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#identidad",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contacto",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#presentacion",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contacto",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2010-88-11",
+          "external": true,
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.grazalema.es/component/phocadownload/category/5-ano-2015?download=20%3Aacta-02-07-2015",
+          "external": true,
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "#contenido",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contenido",
+          "external": false,
+          "target": "",
+          "rel": ""
+        }
+      ],
+      "targets": [
+        {
+          "text": "01 Presentación",
+          "height": 44
+        },
+        {
+          "text": "02 Identidad",
+          "height": 44
+        },
+        {
+          "text": "03 Información",
+          "height": 44
+        },
+        {
+          "text": "Conocer la presentación",
+          "height": 44
+        },
+        {
+          "text": "Volver al inicio",
+          "height": 44
+        }
+      ],
+      "errors": []
+    },
+    {
+      "viewport": 768,
+      "width": 768,
+      "scrollWidth": 753,
+      "height": 3209,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "images": [
+        {
+          "src": "assets/images/editorial-composition.svg",
+          "loaded": true
+        }
+      ],
+      "font": true,
+      "revealHidden": 0,
+      "overflow": [],
+      "interactions": [
+        {
+          "case": "keyboard-tab",
+          "ok": true
+        },
+        {
+          "case": "navigation-presentacion",
+          "ok": true
+        },
+        {
+          "case": "navigation-identidad",
+          "ok": true
+        },
+        {
+          "case": "contact-navigation",
+          "ok": true,
+          "top": 36.03125
+        },
+        {
+          "case": "references-keyboard-open",
+          "ok": true
+        },
+        {
+          "case": "references-keyboard-close",
+          "ok": true
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#contenido",
+          "ok": true
+        },
+        {
+          "href": "#contenido",
+          "ok": true
+        },
+        {
+          "href": "#presentacion",
+          "ok": true
+        },
+        {
+          "href": "#identidad",
+          "ok": true
+        },
+        {
+          "href": "#contacto",
+          "ok": true
+        },
+        {
+          "href": "#presentacion",
+          "ok": true
+        },
+        {
+          "href": "#contacto",
+          "ok": true
+        },
+        {
+          "href": "#contenido",
+          "ok": true
+        },
+        {
+          "href": "#contenido",
+          "ok": true
+        }
+      ],
+      "links": [
+        {
+          "href": "#contenido",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contenido",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#presentacion",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#identidad",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contacto",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#presentacion",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contacto",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2010-88-11",
+          "external": true,
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.grazalema.es/component/phocadownload/category/5-ano-2015?download=20%3Aacta-02-07-2015",
+          "external": true,
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "#contenido",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contenido",
+          "external": false,
+          "target": "",
+          "rel": ""
+        }
+      ],
+      "targets": [
+        {
+          "text": "01 Presentación",
+          "height": 44
+        },
+        {
+          "text": "02 Identidad",
+          "height": 44
+        },
+        {
+          "text": "03 Información",
+          "height": 44
+        },
+        {
+          "text": "Conocer la presentación",
+          "height": 44
+        },
+        {
+          "text": "Volver al inicio",
+          "height": 44
+        }
+      ],
+      "errors": []
+    },
+    {
+      "viewport": 1440,
+      "width": 1440,
+      "scrollWidth": 1425,
+      "height": 3800,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "images": [
+        {
+          "src": "assets/images/editorial-composition.svg",
+          "loaded": true
+        }
+      ],
+      "font": true,
+      "revealHidden": 0,
+      "overflow": [],
+      "interactions": [
+        {
+          "case": "keyboard-tab",
+          "ok": true
+        },
+        {
+          "case": "navigation-presentacion",
+          "ok": true
+        },
+        {
+          "case": "navigation-identidad",
+          "ok": true
+        },
+        {
+          "case": "contact-navigation",
+          "ok": true,
+          "top": 24.078125
+        },
+        {
+          "case": "references-keyboard-open",
+          "ok": true
+        },
+        {
+          "case": "references-keyboard-close",
+          "ok": true
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#contenido",
+          "ok": true
+        },
+        {
+          "href": "#contenido",
+          "ok": true
+        },
+        {
+          "href": "#presentacion",
+          "ok": true
+        },
+        {
+          "href": "#identidad",
+          "ok": true
+        },
+        {
+          "href": "#contacto",
+          "ok": true
+        },
+        {
+          "href": "#presentacion",
+          "ok": true
+        },
+        {
+          "href": "#contacto",
+          "ok": true
+        },
+        {
+          "href": "#contenido",
+          "ok": true
+        },
+        {
+          "href": "#contenido",
+          "ok": true
+        }
+      ],
+      "links": [
+        {
+          "href": "#contenido",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contenido",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#presentacion",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#identidad",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contacto",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#presentacion",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contacto",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2010-88-11",
+          "external": true,
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.grazalema.es/component/phocadownload/category/5-ano-2015?download=20%3Aacta-02-07-2015",
+          "external": true,
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "#contenido",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contenido",
+          "external": false,
+          "target": "",
+          "rel": ""
+        }
+      ],
+      "targets": [
+        {
+          "text": "01 Presentación",
+          "height": 44
+        },
+        {
+          "text": "02 Identidad",
+          "height": 44
+        },
+        {
+          "text": "03 Información",
+          "height": 44
+        },
+        {
+          "text": "Conocer la presentación",
+          "height": 44
+        },
+        {
+          "text": "Volver al inicio",
+          "height": 44
+        }
+      ],
+      "errors": []
+    },
+    {
+      "viewport": 1920,
+      "width": 1920,
+      "scrollWidth": 1905,
+      "height": 4243,
+      "h1": 1,
+      "robots": [
+        "noindex, nofollow"
+      ],
+      "images": [
+        {
+          "src": "assets/images/editorial-composition.svg",
+          "loaded": true
+        }
+      ],
+      "font": true,
+      "revealHidden": 0,
+      "overflow": [],
+      "interactions": [
+        {
+          "case": "keyboard-tab",
+          "ok": true
+        },
+        {
+          "case": "navigation-presentacion",
+          "ok": true
+        },
+        {
+          "case": "navigation-identidad",
+          "ok": true
+        },
+        {
+          "case": "contact-navigation",
+          "ok": true,
+          "top": 24.296875
+        },
+        {
+          "case": "references-keyboard-open",
+          "ok": true
+        },
+        {
+          "case": "references-keyboard-close",
+          "ok": true
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#contenido",
+          "ok": true
+        },
+        {
+          "href": "#contenido",
+          "ok": true
+        },
+        {
+          "href": "#presentacion",
+          "ok": true
+        },
+        {
+          "href": "#identidad",
+          "ok": true
+        },
+        {
+          "href": "#contacto",
+          "ok": true
+        },
+        {
+          "href": "#presentacion",
+          "ok": true
+        },
+        {
+          "href": "#contacto",
+          "ok": true
+        },
+        {
+          "href": "#contenido",
+          "ok": true
+        },
+        {
+          "href": "#contenido",
+          "ok": true
+        }
+      ],
+      "links": [
+        {
+          "href": "#contenido",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contenido",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#presentacion",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#identidad",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contacto",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#presentacion",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contacto",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "https://www.boe.es/diario_borme/txt.php?id=BORME-A-2010-88-11",
+          "external": true,
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://www.grazalema.es/component/phocadownload/category/5-ano-2015?download=20%3Aacta-02-07-2015",
+          "external": true,
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "#contenido",
+          "external": false,
+          "target": "",
+          "rel": ""
+        },
+        {
+          "href": "#contenido",
+          "external": false,
+          "target": "",
+          "rel": ""
+        }
+      ],
+      "targets": [
+        {
+          "text": "01 Presentación",
+          "height": 44
+        },
+        {
+          "text": "02 Identidad",
+          "height": 44
+        },
+        {
+          "text": "03 Información",
+          "height": 44
+        },
+        {
+          "text": "Conocer la presentación",
+          "height": 44
+        },
+        {
+          "text": "Volver al inicio",
+          "height": 44
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "reducedMotion": {
+    "scroll": "auto",
+    "animations": 0,
+    "revealVisible": true
+  },
+  "noJs": {
+    "h1": 1,
+    "revealVisible": true,
+    "anchors": true
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "unchangedOtherProjects": [
+    {
+      "folder": "avancli",
+      "unchanged": true
+    },
+    {
+      "folder": "inma-gil-psicologa",
+      "unchanged": true
+    },
+    {
+      "folder": "la-tienda-de-ali",
+      "unchanged": true
+    },
+    {
+      "folder": "tatuaje-el-bosque",
+      "unchanged": true
+    },
+    {
+      "folder": "centro-veterinario-razas-el-bosque",
+      "unchanged": true
+    },
+    {
+      "folder": "construcciones-canino-sl",
+      "unchanged": true
+    },
+    {
+      "folder": "fontaneria-chacon",
+      "unchanged": true
+    },
+    {
+      "folder": "colore-fine-reforma",
+      "unchanged": true
+    },
+    {
+      "folder": "guadalupe-grupo-inmobiliario",
+      "unchanged": true
+    },
+    {
+      "folder": "mgs-seguros-sierra-de-grazalema",
+      "unchanged": true
+    },
+    {
+      "folder": "martina-blasco",
+      "unchanged": true
+    },
+    {
+      "folder": "rc-soluciones-informaticas",
+      "unchanged": true
+    },
+    {
+      "folder": "le-velo-cycling",
+      "unchanged": true
+    }
+  ],
+  "robotsCount": 1,
+  "robotsInHead": true,
+  "h1Count": 1,
+  "missingResources": [],
+  "emptyLinks": false,
+  "contactLinks": [],
+  "forms": 0,
+  "browser": [
+    {
+      "viewport": 375,
+      "passed": true,
+      "invalidExternalLinks": [],
+      "smallTargets": []
+    },
+    {
+      "viewport": 390,
+      "passed": true,
+      "invalidExternalLinks": [],
+      "smallTargets": []
+    },
+    {
+      "viewport": 768,
+      "passed": true,
+      "invalidExternalLinks": [],
+      "smallTargets": []
+    },
+    {
+      "viewport": 1440,
+      "passed": true,
+      "invalidExternalLinks": [],
+      "smallTargets": []
+    },
+    {
+      "viewport": 1920,
+      "passed": true,
+      "invalidExternalLinks": [],
+      "smallTargets": []
+    }
+  ],
+  "reducedMotion": {
+    "scroll": "auto",
+    "animations": 0,
+    "revealVisible": true
+  },
+  "noJs": {
+    "h1": 1,
+    "revealVisible": true,
+    "anchors": true
+  }
+}
